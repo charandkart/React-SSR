@@ -1,50 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export class Post extends React.Component {
-    constructor( props ) {
-        console.log( 'Post.constructor()' );
-
-        super();
-
-        // component state
+export const Post = (props) => {
+    const [isLoading, setIsLoading] = useState(props.staticContext?.title ? false :true);
+    const [title, setTitle] = useState(props.staticContext?.title || '')
+    const [description, setDescription] = useState(props.staticContext?.body || '');
+    
+    useEffect(( ) => {
         if( props.staticContext ) {
-            this.state = {
-                isLoading: false,
-                title: props.staticContext.title,
-                description: props.staticContext.body,
-            };
+            setIsLoading(false),
+            setTitle(props.staticContext.title)
+            setDescription(props.staticContext.body)
         } else if( window.initial_state ) {
-            this.state = {
-                isLoading: false,
-                title: window.initial_state.title,
-                description: window.initial_state.body,
-            };
+            setIsLoading(false),
+            setTitle(window.initial_state.title)
+            setDescription(window.initial_state.body)
         } else {
-            this.state = {
-                isLoading: true,
-                title: '',
-                description: '',
-            };
+            setIsLoading(false),
+            setTitle('')
+            setDescription('')
         }
-    }
-
-    // fetch data
-    static fetchData() {
-        console.log( 'Post.fetchData()' );
-
-       return axios.get( 'https://jsonplaceholder.typicode.com/posts/3' ).then( response => {
-            return {
-                title: response.data.title,
-                body: response.data.body,
-            };
-        } );
-    }
+    },[])
 
     // when component mounts, fetch data
-    componentDidMount() {
-        if( this.state.isLoading ) {
-            console.log( 'Post.componentDidMount()' );
+    useEffect(() => {
+        if(isLoading ) {
 
             Post.fetchData().then( data => {
                 this.setState( {
@@ -54,24 +34,35 @@ export class Post extends React.Component {
                 } );
             } );
         }
+    },[])
+
+    return (
+        <div className='ui-post'>
+            <p className='ui-post__title'>Post Widget</p>
+
+            {
+                isLoading ? 'loading...' : (
+                    <div className='ui-post__body'>
+                        <p className='ui-post__body__title'>{ title }</p>
+                        <p className='ui-post__body__description'>{ description }</p>
+                    </div>
+                )
+            }
+        </div>
+    );
+}
+
+// static props
+Post.fetchData = async (path_variables, query_params) => {
+    try {
+        console.log(path_variables, query_params);
+        const res = await axios.get( 'https://jsonplaceholder.typicode.com/posts/1' )
+        return {
+            title: res.data.title,
+            body: res.data.body,
+        };
+    } catch (error) {
+        return {}
     }
 
-    render() {
-        console.log( 'Post.render()' );
-
-        return (
-            <div className='ui-post'>
-                <p className='ui-post__title'>Post Widget</p>
-
-                {
-                    this.state.isLoading ? 'loading...' : (
-                        <div className='ui-post__body'>
-                            <p className='ui-post__body__title'>{ this.state.title }</p>
-                            <p className='ui-post__body__description'>{ this.state.description }</p>
-                        </div>
-                    )
-                }
-            </div>
-        );
-    }
 }

@@ -1,0 +1,108 @@
+CONNECTED(000001B0)
+---
+Certificate chain
+ 0 s:C = US, ST = California, L = Walnut Creek, O = Lucas Garron Torres, CN = *.badssl.com
+   i:C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGqDCCBZCgAwIBAgIQCvBs2jemC2QTQvCh6x1Z/TANBgkqhkiG9w0BAQsFADBN
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E
+aWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjAwMzIzMDAwMDAwWhcN
+MjIwNTE3MTIwMDAwWjBuMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5p
+YTEVMBMGA1UEBxMMV2FsbnV0IENyZWVrMRwwGgYDVQQKExNMdWNhcyBHYXJyb24g
+VG9ycmVzMRUwEwYDVQQDDAwqLmJhZHNzbC5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDCBOz4jO4EwrPYUNVwWMyTGOtcqGhJsCK1+ZWesSssdj5s
+wEtgTEzqsrTAD4C2sPlyyYYC+VxBXRMrf3HES7zplC5QN6ZnHGGM9kFCxUbTFocn
+n3TrCp0RUiYhc2yETHlV5NFr6AY9SBVSrbMo26r/bv9glUp3aznxJNExtt1NwMT8
+U7ltQq21fP6u9RXSM0jnInHHwhR6bCjqN0rf6my1crR+WqIW3GmxV0TbChKr3sMP
+R3RcQSLhmvkbk+atIgYpLrG6SRwMJ56j+4v3QHIArJII2YxXhFOBBcvm/mtUmEAn
+hccQu3Nw72kYQQdFVXz5ZD89LMOpfOuTGkyG0cqFAgMBAAGjggNhMIIDXTAfBgNV
+HSMEGDAWgBQPgGEcgjFh1S8o541GOLQs4cbZ4jAdBgNVHQ4EFgQUne7Be4ELOkdp
+cRh9ETeTvKUbP/swIwYDVR0RBBwwGoIMKi5iYWRzc2wuY29tggpiYWRzc2wuY29t
+MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw
+awYDVR0fBGQwYjAvoC2gK4YpaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL3NzY2Et
+c2hhMi1nNi5jcmwwL6AtoCuGKWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9zc2Nh
+LXNoYTItZzYuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUH
+AgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQIDMHwGCCsG
+AQUFBwEBBHAwbjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29t
+MEYGCCsGAQUFBzAChjpodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNl
+cnRTSEEyU2VjdXJlU2VydmVyQ0EuY3J0MAwGA1UdEwEB/wQCMAAwggF+BgorBgEE
+AdZ5AgQCBIIBbgSCAWoBaAB2ALvZ37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaO
+HtGFAAABcQhGXioAAAQDAEcwRQIgDfWVBXEuUZC2YP4Si3AQDidHC4U9e5XTGyG7
+SFNDlRkCIQCzikrA1nf7boAdhvaGu2Vkct3VaI+0y8p3gmonU5d9DwB2ACJFRQdZ
+VSRWlj+hL/H3bYbgIyZjrcBLf13Gg1xu4g8CAAABcQhGXlsAAAQDAEcwRQIhAMWi
+Vsi2vYdxRCRsu/DMmCyhY0iJPKHE2c6ejPycIbgqAiAs3kSSS0NiUFiHBw7QaQ/s
+GO+/lNYvjExlzVUWJbgNLwB2AFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7U
+iwXlAAABcQhGXnoAAAQDAEcwRQIgKsntiBqt8Au8DAABFkxISELhP3U/wb5lb76p
+vfenWL0CIQDr2kLhCWP/QUNxXqGmvr1GaG9EuokTOLEnGPhGv1cMkDANBgkqhkiG
+9w0BAQsFAAOCAQEA0RGxlwy3Tl0lhrUAn2mIi8LcZ9nBUyfAcCXCtYyCdEbjIP64
+xgX6pzTt0WJoxzlT+MiK6fc0hECZXqpkTNVTARYtGkJoljlTK2vAdHZ0SOpm9OT4
+RLfjGnImY0hiFbZ/LtsvS2Zg7cVJecqnrZe/za/nbDdljnnrll7C8O5naQuKr4te
+uice3e8a4TtviFwS/wdDnJ3RrE83b1IljILbU5SV0X1NajyYkUWS7AnOmrFUUByz
+MwdGrM6kt0lfJy/gvGVsgIKZocHdedPeECqAtq7FAJYanOsjNN9RbBOGhbwq0/FP
+CC01zojqS10nGowxzOiqyB4m6wytmzf0QwjpMw==
+-----END CERTIFICATE-----
+subject=C = US, ST = California, L = Walnut Creek, O = Lucas Garron Torres, CN = *.badssl.com
+
+issuer=C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA512
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 2414 bytes and written 455 bytes
+Verification error: certificate has expired
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: A746DEE5CEEB40104165247B73B8B8EFA73789A1E55B79F9A78CBD247DF5F1F6
+    Session-ID-ctx: 
+    Master-Key: EF5DA1A321B98704D3E7A32B0EED2AF5B081126066408AE950FAA5B3BE0C0E061DCA2BE83EF431872CFD62837C4ABACD
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 18 c1 48 19 ed 7a 4e e7-d9 8e 1c 06 fd 4f f1 31   ..H..zN......O.1
+    0010 - 96 d3 45 4c 39 19 63 5d-b0 cd 83 ce c1 29 fd e6   ..EL9.c].....)..
+    0020 - e8 53 5c 63 7c 96 f3 24-e2 2e 43 f6 ee 06 d5 18   .S\c|..$..C.....
+    0030 - a4 f5 b2 f6 9c 17 5c df-3f ee 11 fb 08 fe c9 88   ......\.?.......
+    0040 - fa 7a 38 34 50 e1 cb 53-06 46 77 57 9e e0 92 60   .z84P..S.FwW...`
+    0050 - aa 65 7e 85 f1 0d 36 ed-28 6b e2 93 6f 0c 18 9f   .e~...6.(k..o...
+    0060 - f2 2f 74 a8 59 3e a2 0a-ce 54 9a b5 86 a0 7a d3   ./t.Y>...T....z.
+    0070 - e6 92 b9 37 1b bb 5a 60-6b d1 43 7a 4d 1b 1d dd   ...7..Z`k.CzM...
+    0080 - 22 03 ba b1 a4 8c 33 1f-9c 5a c0 1d 9e 8c 1e 14   ".....3..Z......
+    0090 - 50 66 c6 37 aa 5c 56 d4-96 60 ed 2f 52 bf 33 ad   Pf.7.\V..`./R.3.
+    00a0 - 08 65 2d 0a 6f b4 9f b4-fe 08 ff 79 a8 b8 da 0c   .e-.o......y....
+    00b0 - ee 66 3f a9 7e ea 7d 9d-3c a5 0a 1f bd 8a cf 46   .f?.~.}.<......F
+    00c0 - aa a8 bd 20 71 da 52 a7-a0 27 53 d7 9e bc c2 3d   ... q.R..'S....=
+
+    Start Time: 1659025609
+    Timeout   : 7200 (sec)
+    Verify return code: 10 (certificate has expired)
+    Extended master secret: no
+---
+HTTP/1.1 400 Bad Request
+Server: nginx/1.10.3 (Ubuntu)
+Date: Thu, 28 Jul 2022 16:26:54 GMT
+Content-Type: text/html
+Content-Length: 182
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx/1.10.3 (Ubuntu)</center>
+</body>
+</html>
