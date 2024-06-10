@@ -3,6 +3,7 @@
   "description": "A React server-side rendering (SSR) sample project.",
   "version": "1.0.0",
   "scripts": {
+    "test":"echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve",
     "build": "webpack",
     "start:ssr": "nodemon server"
